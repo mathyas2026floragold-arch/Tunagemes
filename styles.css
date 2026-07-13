@@ -878,6 +878,17 @@ h2 {
   box-shadow: inset 0 0 18px rgba(176, 71, 255, 0.14);
 }
 
+.football-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.football-actions .button {
+  min-width: 190px;
+}
+
 .football-showcase {
   display: grid;
   gap: 18px;
